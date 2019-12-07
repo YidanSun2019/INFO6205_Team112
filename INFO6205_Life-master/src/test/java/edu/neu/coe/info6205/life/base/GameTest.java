@@ -4,6 +4,7 @@ import edu.neu.coe.info6205.life.library.Library;
 import org.junit.Test;
 
 import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertTrue;
 
 public class GameTest {
 
@@ -28,5 +29,39 @@ public class GameTest {
 		@Test
 		public void generation() {
 				// TODO implement test
+		}
+		@Test
+		public void testFitness1() {
+			String str="Block";
+			final String pattern = Library.get(str);
+			assertEquals(2L, Game.fitness(pattern));
+		}
+		@Test
+		public void testFitness2() {
+			String str="Beehive";
+			final String pattern = Library.get(str);
+			assertEquals(2L, Game.fitness(pattern));
+		}
+		@Test
+		public void testFitness3() {
+			String str="Loaf";
+			final String pattern = Library.get(str);
+			assertEquals(2L, Game.fitness(pattern));
+		}
+		@Test
+		public void testFitness4() {
+			String str="Blinker";
+			final String pattern = Library.get(str);
+			assertEquals(4L, Game.fitness(pattern));
+		}
+		@Test
+		public void testFitness5() {
+			String str="Glider1";
+			final String pattern = Library.get(str);
+			assertEquals(11L, Game.fitness(pattern));
+		}
+		@Test
+		public void testRandom() {
+			assertTrue(!Game.RandomString().isEmpty());
 		}
 }
