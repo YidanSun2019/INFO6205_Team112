@@ -37,7 +37,7 @@ Please see it on report.
 ## Contributor
 
 [Yidan Sun]https://github.com/YidanSun2019
-[Han He]https//github.com/hehan011223
+[Han He]https://github.com/hehan011223
 
 ## License
 
