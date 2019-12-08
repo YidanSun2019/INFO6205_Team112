@@ -9,7 +9,6 @@ INFO6205 Final Project_Game of life_Team Num:112
 - [API](#API)
 - [Result](#Result)
 - [Contributor](#contributoar)
-- [License](#license)
 
 ## Introduction
 
@@ -38,7 +37,3 @@ Please see it on report.
 
 [Yidan Sun]https://github.com/YidanSun2019
 [Han He]https://github.com/hehan011223
-
-## License
-
-[MIT © Richard McRichface.](../LICENSE)
